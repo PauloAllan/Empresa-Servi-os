@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Serviços LTDA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <center><h1>Empresa de Serviços do Fera</h1></center>
+        <hr>
+        <div class="section">
+            <h2>Plano de Serviços</h2>
+            <label for="salario">Digite o salário do cliente:</label>
+            <input type="number" id="salario" placeholder="R$">
+            <button onclick="verificarSalario()">Verificar Plano</button>
+            <p id="resultado-salario"></p>
+        </div>
+
+        <div class="section">
+            <h2>Valor do Colesterol</h2>
+            <label for="colesterol">Digite o valor do colesterol:</label>
+            <input type="number" id="colesterol" placeholder="mg/dL">
+            <button onclick="verificarColesterol()">Verificar Saúde</button>
+            <p id="resultado-colesterol"></p>
+        </div>
+
+        <div class="section">
+            <h2>Comissão de Vendas</h2>
+            <label for="vendas">Digite o total de vendas do mês:</label>
+            <input type="number" id="vendas" placeholder="R$">
+            <button onclick="calcularComissao()">Calcular Comissão</button>
+            <p id="resultado-vendas"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
